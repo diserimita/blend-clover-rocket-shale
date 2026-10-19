@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Expediente Holmes",
+      "hasCanvas": false,
+      "bodyTextLen": 6518,
+      "bodyTextHash": "b5907c7f50eca204d7525428b30ab1f3d4e69587c1e8ec9edbbd000d7cb0a1f4",
+      "bodyTextPrefix": "ARCHIVO · CHICAGO 1886–1896 H. H. Holmes De la facultad de medic",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Expediente Holmes",
+      "hasCanvas": false,
+      "bodyTextLen": 6438,
+      "bodyTextHash": "83133b79727b5d1c73a993214878b4a36ba16bfd2bc4af56a3d0255c945aeeca",
+      "bodyTextPrefix": "ARCHIVO · CHICAGO 1886–1896 H. H. Holmes De la facultad de medic",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

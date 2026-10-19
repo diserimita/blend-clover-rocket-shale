@@ -1,0 +1,770 @@
+import { i as __toESM } from "../_runtime.mjs";
+import { K as require_react, b as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
+import { a as Gavel, c as Building2, i as GraduationCap, n as Scale, o as ChevronRight, r as Heart, s as ChevronLeft } from "../_libs/lucide-react.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-Bszr_60y.js
+var import_react = /* @__PURE__ */ __toESM(require_react());
+var import_jsx_runtime = require_jsx_runtime();
+var LANES = [
+	{
+		id: "todo",
+		label: "Todo"
+	},
+	{
+		id: "carrera",
+		label: "Carrera"
+	},
+	{
+		id: "vida",
+		label: "Vida personal"
+	},
+	{
+		id: "edificio",
+		label: "El edificio"
+	},
+	{
+		id: "crimenes",
+		label: "Asesinatos"
+	},
+	{
+		id: "fin",
+		label: "Juicio y muerte"
+	}
+];
+var CERTAINTY_LABEL = {
+	documentado: "Documentado",
+	probable: "Probable",
+	leyenda: "Leyenda"
+};
+var LANE_LABEL = {
+	carrera: "Carrera",
+	vida: "Vida personal",
+	edificio: "El edificio",
+	crimenes: "Asesinatos",
+	fin: "Juicio y muerte"
+};
+var EVENTS = [
+	{
+		id: "nacimiento",
+		date: "16 de mayo de 1861",
+		sort: 18610516,
+		year: "1861",
+		chapter: "Prólogo",
+		lane: "vida",
+		certainty: "documentado",
+		title: "Nace Herman Webster Mudgett",
+		summary: "En Gilmanton, New Hampshire. El nombre H. H. Holmes llega mucho después.",
+		body: ["Tercer hijo de Levi Horton Mudgett, granjero, comerciante y pintor de casas, y de Theodate Page Price. La familia descendía de los primeros colonos ingleses del pueblo.", "El padre bebía y pegaba a los hijos. La madre era metodista devota. De niño Herman es listo en la escuela; el gusto por los esqueletos que cuentan las biografías populares es casi todo anécdota, no expediente."]
+	},
+	{
+		id: "clara",
+		date: "4 de julio de 1878",
+		sort: 18780704,
+		year: "1878",
+		chapter: "Prólogo",
+		lane: "vida",
+		certainty: "documentado",
+		title: "Se casa con Clara Lovering",
+		summary: "Tiene 17 años. Ella es de una familia con recursos y ayuda a pagar los estudios.",
+		body: ["La boda es en Alton, New Hampshire, el día de la Independencia. Herman acaba de salir de la Gilmanton Academy, con honores, a los 16, y ha dado clases en el pueblo y en Alton.", "Clara será su única esposa legal de principio a fin: el divorcio nunca se cierra. Años después él la describe como un estorbo. Hay testimonio de que fue violento con ella."]
+	},
+	{
+		id: "robert",
+		date: "3 de febrero de 1880",
+		sort: 18800203,
+		year: "1880",
+		chapter: "Prólogo",
+		lane: "vida",
+		certainty: "documentado",
+		title: "Nace su hijo Robert",
+		summary: "Robert Lovering Mudgett, en Loudon, New Hampshire. Sobrevive a su padre.",
+		body: ["Robert no desaparece ni entra en la lista de víctimas. De adulto será contador público y, más tarde, city manager de Orlando, Florida. Muere en 1956.", "Holmes casi no hace de padre. Cuando la fama lo alcance, el hijo vivirá apartado del apellido Mudgett."]
+	},
+	{
+		id: "vermont",
+		date: "1879 – 1880",
+		sort: 1879e4,
+		year: "1879",
+		chapter: "Prólogo",
+		lane: "carrera",
+		certainty: "documentado",
+		title: "Un año en la Universidad de Vermont",
+		summary: "Entra a los 18 en Burlington y lo deja al cabo de un curso.",
+		body: ["Sigue casado con Clara. Burlington no le deja título: lo intenta de nuevo dos años después, ya en Michigan."]
+	},
+	{
+		id: "michigan",
+		date: "Junio de 1884",
+		sort: 18840600,
+		year: "1884",
+		chapter: "Sale de la carrera",
+		lane: "carrera",
+		certainty: "documentado",
+		title: "Se gradúa de médico en Michigan",
+		summary: "Aquí arranca la vida pública que pediste: sale de la facultad y el fraude ya está ensayado.",
+		body: ["En 1882 entra al Departamento de Medicina y Cirugía de la Universidad de Michigan. Se recibe en junio de 1884, con notas mediocres. Trabaja en el laboratorio de anatomía, con el profesor William James Herdman, y antes había sido aprendiz de Nahum Wight en New Hampshire: los dos sitios lo acercan a cadáveres.", "Él contará después que en la facultad usó cuerpos para fingir muertos y cobrar seguros de vida. Eso sale de su propia confesión, no de una sentencia. La confesión miente a menudo; el patrón —robo de cuerpos, estafa, nombre nuevo— sí se sostiene con lo que viene."]
+	},
+	{
+		id: "clara-se-va",
+		date: "1884",
+		sort: 18840700,
+		year: "1884",
+		chapter: "Sale de la carrera",
+		lane: "vida",
+		certainty: "documentado",
+		title: "Clara se lleva al niño",
+		summary: "Antes de que él recoja el título, ella vuelve a New Hampshire. Casi no vuelven a verse.",
+		body: ["El matrimonio no se disuelve. En 1891 Holmes presenta una demanda de divorcio acusándola de infidelidad; el 4 de junio de 1891 el tribunal la desestima por abandono de la causa. Es muy probable que Clara ni se enterara.", "Sigue casado con ella cuando se case con las otras. Clara y Robert le sobreviven."]
+	},
+	{
+		id: "deriva",
+		date: "1884 – 1886",
+		sort: 1885e4,
+		year: "1885",
+		chapter: "Sale de la carrera",
+		lane: "carrera",
+		certainty: "documentado",
+		title: "Deriva, un niño muerto y un nombre nuevo",
+		summary: "Mooers, Norristown, una botica en Filadelfia. Luego se hace llamar Henry Howard Holmes.",
+		body: [
+			"Tras separarse de Clara pasa por Mooers, Nueva York. Corre el rumor de un niño visto con él que desaparece; Holmes dice que el niño volvió a su casa. No hay investigación.",
+			"Lo contratan como encargado en el hospital estatal de Norristown, cerca de Filadelfia, y renuncia a los pocos días. En una farmacia de Filadelfia muere un niño después de tomar una medicina del local. Holmes niega tener que ver y se va.",
+			"Antes de Chicago cambia Mudgett por Henry Howard Holmes, para dejar atrás las estafas. La idea de que el alias honra a Sherlock Holmes no cuadra: el primer relato del detective es de 1887, y él ya usa el nombre en 1886."
+		]
+	},
+	{
+		id: "farmacia",
+		date: "Agosto de 1886",
+		sort: 18860800,
+		year: "1886",
+		chapter: "Chicago",
+		lane: "carrera",
+		certainty: "documentado",
+		title: "Entra a la farmacia de la viuda Holton",
+		summary: "Englewood, esquina noroeste de South Wallace Avenue y West 63rd Street.",
+		body: ["Llega a Chicago en agosto de 1886 y se emplea en la botica de Elizabeth Holton. Se muestra trabajador, encantador con la clientela y, al poco, se queda con el negocio.", "La leyenda dice que mató al dueño, el doctor E. S. Holton, para heredar la tienda. No es así: Holton ya había muerto. Holmes le compra la farmacia a la viuda. Es la primera pieza de lo que la prensa llamará después el castillo: no una casa familiar, sino un local de esquina."]
+	},
+	{
+		id: "myrta",
+		date: "24 de noviembre de 1886",
+		sort: 18861124,
+		year: "1886",
+		chapter: "Chicago",
+		lane: "vida",
+		certainty: "documentado",
+		title: "Segunda boda: Myrta Belknap",
+		summary: "En Minneapolis, todavía casado con Clara. Bigamia, sin divorcio cerrado.",
+		body: ["Conoce a Myrta en un viaje a Minneapolis y se casa con ella bajo el nombre Harry Howard Holmes. Semanas antes o alrededor de esa fecha intenta divorciarse de Clara; la demanda no prospera.", "Myrta tampoco será una víctima. Tendrán una hija y vivirán en Wilmette, un suburbio al norte de Chicago, no dentro del edificio de la 63rd. Myrta muere décadas después, en 1956, el mismo año que Lucy y que Robert."]
+	},
+	{
+		id: "lote",
+		date: "1887",
+		sort: 1887e4,
+		year: "1887",
+		chapter: "El edificio",
+		lane: "edificio",
+		certainty: "documentado",
+		title: "Compra el lote de enfrente",
+		summary: "Así consigue el terreno del futuro “castillo”: lo compra y encarga la obra a crédito.",
+		body: ["Frente a la farmacia, al otro lado de Wallace, hay un lote vacío. Holmes lo adquiere en 1887 y encarga un edificio de dos plantas: comercio abajo —la botica se muda ahí— y departamentos arriba.", "No lo paga de su bolsillo. Lo financia con inversionistas y proveedores. El truco de siempre: comprar, no pagar, cambiar de nombre o de acreedor. Otras crónicas fechan la compra en 1888 y dan la obra por terminada hacia junio de 1890; el expediente más sobrio sitúa el arranque en 1887 y la demanda por impago en 1888."]
+	},
+	{
+		id: "cuadrillas",
+		date: "1888",
+		sort: 1888e4,
+		year: "1888",
+		chapter: "El edificio",
+		lane: "edificio",
+		certainty: "documentado",
+		title: "No paga y rota a los obreros",
+		summary: "Lo demandan los arquitectos y Aetna Iron and Steel. Nadie ve el plano completo.",
+		body: ["Cambia de cuadrilla varias veces. Cada grupo conoce un pedazo: un pasillo, una pared, una puerta que no cuadra. Eso está documentado y explica la planta rara del edificio.", "La prensa de 1895 convertirá ese desorden en un laberinto de cámaras de gas, crematorio y salas de tortura. Los historiadores leen otra cosa: cuartos irregulares para esconder muebles comprados a crédito y no devolverlos, y un fraude de obra. Raro no es lo mismo que matadero industrial."]
+	},
+	{
+		id: "lucy",
+		date: "4 de julio de 1889",
+		sort: 18890704,
+		year: "1889",
+		chapter: "El edificio",
+		lane: "vida",
+		certainty: "documentado",
+		title: "Nace Lucy, su hija con Myrta",
+		summary: "Lucy Theodate Holmes, en Englewood. Será maestra. No es una víctima.",
+		body: ["El segundo hijo nace el mismo día en que, once años antes, él se había casado con Clara. Lucy crece con Myrta en Wilmette y de adulta da clases en la escuela pública.", "Conviene fijarlo porque el mito mezcla “esposas e hijos desaparecidos”. Clara, Robert, Myrta y Lucy viven. Quienes mueren son otras personas, casi todas empleadas, inquilinas o cómplices."]
+	},
+	{
+		id: "julia",
+		date: "Nochebuena de 1891",
+		sort: 18911224,
+		year: "1891",
+		chapter: "Las desapariciones",
+		lane: "crimenes",
+		certainty: "documentado",
+		title: "Julia Conner y su hija Pearl",
+		summary: "Las primeras víctimas que la investigación da por confirmadas. Desaparecen del edificio.",
+		body: ["Julia Conner, ligada a Holmes y al inmueble, y su hija Pearl dejan de aparecer en Nochebuena de 1891. El caso se lee como un aborto que sale mal y un envenenamiento; no hay un juicio por estos hechos.", "Cuando la policía registra el edificio en 1895 encuentra restos parciales de una niña en el sótano y rastros de sangre. Julia y Pearl cuentan entre las nueve víctimas confirmadas. A partir de aquí el arco de crímenes que se sostiene va de 1891 a 1894."]
+	},
+	{
+		id: "hotel",
+		date: "1892",
+		sort: 18920100,
+		year: "1892",
+		chapter: "Las desapariciones",
+		lane: "edificio",
+		certainty: "documentado",
+		title: "El tercer piso y el hotel de la Feria",
+		summary: "Añade una planta y lo anuncia como World’s Fair Hotel, de cara a la Exposición de 1893.",
+		body: ["Chicago se prepara para la Exposición Mundial Colombina. Holmes dice que el tercer piso alojará visitantes. El resultado es un hotel mediano y a medio hacer, no un palacio de más de cien habitaciones.", "Durante la feria sí hubo inquilinas y empleadas. No hay prueba de que asesinara turistas de la Exposición al por mayor ni de que vendiera sus esqueletos a facultades de medicina. Ese capítulo es de El diablo en la ciudad blanca y de los diarios, no del juicio."]
+	},
+	{
+		id: "emeline",
+		date: "Mayo – diciembre de 1892",
+		sort: 18921200,
+		year: "1892",
+		chapter: "Las desapariciones",
+		lane: "crimenes",
+		certainty: "documentado",
+		title: "Emeline Cigrand",
+		summary: "Entra a trabajar con él en mayo y en diciembre ya no está. Víctima confirmada.",
+		body: ["Emeline Cigrand es una joven que Holmes emplea como secretaria o mecanógrafa. Desaparece a fin de 1892. Un esqueleto asociado al caso, y el embarazo que probablemente tenía, apuntan a otro aborto fallido o a alguien que ya sabía demasiado.", "El móvil que mejor encaja con los hechos, cuando los hay, no es un ritual: es práctico. Gente que podía denunciarlo, deudas, propiedades, un seguro."]
+	},
+	{
+		id: "otras",
+		date: "1891 – 1892",
+		sort: 18921250,
+		year: "1892",
+		chapter: "Las desapariciones",
+		lane: "crimenes",
+		certainty: "probable",
+		title: "Muertes cercanas que no cierran el expediente",
+		summary: "Emily Van Tassel, Virginia Anna Betts y otros nombres orbitan el edificio. No están confirmados.",
+		body: ["Emily Van Tassel trabaja en la farmacia y desaparece en 1892. Virginia Anna Betts muere el 8 de febrero de 1892 cerca del hotel; se ha hablado de veneno. También se mencionan a John DeBrueil (17 de abril de 1891, con un seguro de por medio), al doctor Russler y a Kitty Kelly, desaparecidos en 1892.", "“Probable” quiere decir eso: están en el radio de Holmes y la versión encaja, pero no hay el mismo cierre que con los Conner, Cigrand, las Williams o los Pitezel. No los sumo a las nueve."]
+	},
+	{
+		id: "minnie-vida",
+		date: "Mayo de 1893",
+		sort: 18930500,
+		year: "1893",
+		chapter: "Las desapariciones",
+		lane: "vida",
+		certainty: "documentado",
+		title: "Minnie Williams, presentada como esposa",
+		summary: "Wilhelmina “Minnie” Williams. Le transfiere bienes en Fort Worth, Texas.",
+		body: ["En mayo de 1893 Holmes la hace pasar por su mujer. En junio alquilan un departamento en Lincoln Park como matrimonio. Varios registros cuentan una boda ese año; no está tan firme como las actas de Clara, Myrta y Georgiana.", "Lo que sí queda claro es el interés: Minnie tiene propiedades. Cuando Holmes reaparezca en Fort Worth será para construir sobre ese terreno. A diferencia de las otras esposas, Minnie no sale viva del verano."]
+	},
+	{
+		id: "williams",
+		date: "Julio de 1893",
+		sort: 18930705,
+		year: "1893",
+		chapter: "Las desapariciones",
+		lane: "crimenes",
+		certainty: "documentado",
+		title: "Minnie y Nannie Williams",
+		summary: "Nannie, la hermana, el 5 de julio. Minnie, después de hablar de un viaje a Europa. Confirmadas.",
+		body: ["Nannie Williams llega de visita y desaparece el 5 de julio de 1893. Minnie, que había hablado de irse a Europa con Holmes, desaparece el mismo mes. Aparece ropa quemada.", "En 1919 se habló de restos en el condado de Lake que podrían ser de ellas. No hubo condena por estos crímenes: el único juicio por homicidio será el de Benjamin Pitezel. Aun así la investigación las cuenta entre las nueve."]
+	},
+	{
+		id: "georgiana",
+		date: "17 de enero de 1894",
+		sort: 18940117,
+		year: "1894",
+		chapter: "La caída",
+		lane: "vida",
+		certainty: "documentado",
+		title: "Tercera boda: Georgiana Yoke",
+		summary: "En Denver. Sigue casado con Clara y con Myrta. Georgiana sobrevive y declarará.",
+		body: ["Georgiana Yoke cree casarse con un hombre de negocios. Es la tercera esposa simultánea que el papel aguanta: Clara nunca quedó libre, Myrta tampoco. Minnie ya no está.", "Holmes la arrastra por el país en la última huida. Cuando lo arresten en Boston, ella viaja con él y no sabe a quién tiene al lado. No es una víctima mortal. Su testimonio ayuda a armar la cronología del fraude."]
+	},
+	{
+		id: "plan",
+		date: "1894",
+		sort: 18940800,
+		year: "1894",
+		chapter: "La caída",
+		lane: "crimenes",
+		certainty: "documentado",
+		title: "El seguro de Benjamin Pitezel",
+		summary: "El cómplice acepta fingirse muerto por 10,000 dólares. Holmes decide cobrarlo de verdad.",
+		body: ["Benjamin Freelon Pitezel es carpintero, cómplice y, en el papel del seguro, el hombre que iba a “morir”. La Fidelity Mutual tenía una póliza de 10,000 dólares. El plan era conseguir un cadáver parecido.", "Holmes no busca el cadáver. Mata a Pitezel. La esposa, Carrie Alice Canning, cree durante meses que su marido está escondido y que los hijos viajan a salvo con el doctor."]
+	},
+	{
+		id: "benjamin",
+		date: "4 de septiembre de 1894",
+		sort: 18940904,
+		year: "1894",
+		chapter: "La caída",
+		lane: "crimenes",
+		certainty: "documentado",
+		title: "Mata a Benjamin Pitezel",
+		summary: "En el 1326 de Callowhill Street, Filadelfia. Es el único asesinato por el que lo juzgan.",
+		body: ["Lo deja inconsciente con cloroformo y prende el cuerpo con benceno para que parezca un accidente: explosión o incendio de un laboratorio. Un jurado de instrucción dice primero muerte accidental y el cuerpo va a la fosa común.", "Semanas después, Holmes y la propia Carrie identifican el cadáver. El seguro se cobra. El asociado Marion Hedgepeth, que esperaba una tajada y no la recibe, habla con la policía. Ahí se empieza a desarmar el fraude."]
+	},
+	{
+		id: "howard",
+		date: "10 de octubre de 1894",
+		sort: 18941010,
+		year: "1894",
+		chapter: "La caída",
+		lane: "crimenes",
+		certainty: "documentado",
+		title: "Howard Pitezel, en Indianápolis",
+		summary: "Uno de los hijos. Los restos aparecen en una chimenea.",
+		body: ["Holmes viaja con varios hijos de los Pitezel, por separado, diciéndole a la madre que los reúne con el padre. Howard muere en Indianápolis hacia el 10 de octubre de 1894.", "Es niño. El hallazgo, huesos y dientes en una chimenea, es de los más duros del expediente y no necesita adorno. Howard es víctima confirmada."]
+	},
+	{
+		id: "hermanas-pitezel",
+		date: "25 de octubre de 1894",
+		sort: 18941025,
+		year: "1894",
+		chapter: "La caída",
+		lane: "crimenes",
+		certainty: "documentado",
+		title: "Alice y Nellie Pitezel, en Toronto",
+		summary: "Las hermanas mueren en una casa alquilada. Los cuerpos se encuentran en junio de 1895.",
+		body: ["Alice y Nellie son asesinadas en Toronto alrededor del 25 de octubre de 1894, encerradas, con gas. Holmes sigue escribiéndole a Carrie como si las niñas estuvieran de viaje.", "En junio de 1895 la policía halla los cuerpos en el sótano de la casa. Canadá pedirá la extradición. Pensilvania no lo suelta: el caso de Benjamin, el padre, es el que pueden ganar."]
+	},
+	{
+		id: "arresto",
+		date: "17 de noviembre de 1894",
+		sort: 18941117,
+		year: "1894",
+		chapter: "La caída",
+		lane: "fin",
+		certainty: "documentado",
+		title: "Arresto en Boston",
+		summary: "La agencia Pinkerton lo sigue desde Filadelfia. Iba a salir del país con Georgiana.",
+		body: ["Lo detienen el 17 de noviembre de 1894. El cargo a la mano es viejo y menor: un robo de caballos en Texas, donde había pasado por la propiedad de Minnie. Sirve para retenerlo mientras arman lo demás.", "En la celda todavía es el hombre amable que convence a casi todo el mundo. Georgiana tarda en creer lo que le cuentan."]
+	},
+	{
+		id: "fraude",
+		date: "Junio de 1895",
+		sort: 18950603,
+		year: "1895",
+		chapter: "Juicio y muerte",
+		lane: "fin",
+		certainty: "documentado",
+		title: "Se declara culpable del fraude al seguro",
+		summary: "El homicidio todavía no. Primero, conspiración para engañar a la aseguradora.",
+		body: ["Hacia el 3 de junio de 1895, en el segundo día de ese juicio, Holmes se declara culpable de conspirar para estafar a la compañía. Es un fraude que él mismo diseñó y que ya no puede negar: hay póliza, cadáver identificado y cómplices resentidos.", "El edificio de Chicago se registra por las mismas fechas. Hay sangre, baúles, restos. No alcanza, en Illinois, para la condena que Pensilvania sí va a conseguir con Pitezel."]
+	},
+	{
+		id: "prensa",
+		date: "11 de agosto de 1895",
+		sort: 18950811,
+		year: "1895",
+		chapter: "Juicio y muerte",
+		lane: "edificio",
+		certainty: "leyenda",
+		title: "Nace el plano del “castillo de los asesinatos”",
+		summary: "El New York World de Pulitzer publica una planta imaginaria. De ahí sale casi todo el mito.",
+		body: ["El 11 de agosto de 1895 el diario imprime un corte del edificio con cámaras de gas, trampillas, crematorio en el sótano, sala de colgar y un laberinto. Es periodismo amarillo, dibujado para vender. No es el plano de obra.", "Lo que los historiadores sostienen: cuartos ocultos sobre todo para esconder muebles impagos; un hotel inconcluso; ninguna prueba de turistas de la Feria asesinados en serie ni de un crematorio funcionando. El apodo Murder Castle es posterior a los hechos y más grande que los hechos."]
+	},
+	{
+		id: "incendio",
+		date: "Agosto de 1895",
+		sort: 18950820,
+		year: "1895",
+		chapter: "Juicio y muerte",
+		lane: "edificio",
+		certainty: "documentado",
+		title: "El edificio se quema",
+		summary: "Un incendio lo vacía. Se sospecha que fue provocado. Luego fue oficina de correos.",
+		body: ["Después del registro, un fuego —se cree que intencional— destruye el interior. Alguien alcanzó a anunciarlo como atracción, el “Holmes Horror Castle”, y ardió antes de abrir.", "Lo reconstruyen como oficina de correos y así funciona hasta 1938. El solar sigue siendo la posta de Englewood. No queda un castillo que visitar."]
+	},
+	{
+		id: "juicio",
+		date: "Otoño de 1895",
+		sort: 18951028,
+		year: "1895",
+		chapter: "Juicio y muerte",
+		lane: "fin",
+		certainty: "documentado",
+		title: "El juicio por Benjamin Pitezel",
+		summary: "En Filadelfia. Es el único asesinato que llega a veredicto. Holmes hace de abogado.",
+		body: ["El juicio abre en octubre de 1895. Illinois y Canadá quieren otros cargos —las niñas en Toronto, lo hallado en el edificio— pero Pensilvania tiene el caso más claro y no lo extradita.", "El jurado lo declara culpable de asesinato en primer grado. Parte del tiempo se defiende solo, con la misma labia de la farmacia. No le alcanza."]
+	},
+	{
+		id: "sentencia",
+		date: "30 de noviembre de 1895",
+		sort: 18951130,
+		year: "1895",
+		chapter: "Juicio y muerte",
+		lane: "fin",
+		certainty: "documentado",
+		title: "Pena de muerte",
+		summary: "Le niegan un nuevo juicio. La sentencia es la horca.",
+		body: ["El 30 de noviembre de 1895 queda firme. Apelará y perderá. Tiene 34 años y todavía no ha contado “su” versión larga: esa llega cuando un periódico paga por ella."]
+	},
+	{
+		id: "confesion",
+		date: "Primavera de 1896",
+		sort: 18960400,
+		year: "1896",
+		chapter: "Juicio y muerte",
+		lane: "crimenes",
+		certainty: "leyenda",
+		title: "La confesión de veintisiete",
+		summary: "Hearst le paga unos 7,500 dólares. Admite 27 muertes y se desmiente solo.",
+		body: ["Después de la condena escribe una confesión para los diarios de Hearst. Habla de 27 asesinatos y de varios intentos, de cloroformo, de una bóveda, de estar poseído. Mezcla gente que seguía viva —Kate Durkee— y gente que murió de causas naturales, como el doctor Robert Leacock, el 5 de octubre de 1889.", "La policía confirma nueve: Julia y Pearl Conner, Emeline Cigrand, Minnie y Nannie Williams, Benjamin Pitezel y sus hijos Howard, Alice y Nellie. Las cifras de 20, 100 o 200 salen de esa confesión y de la prensa, no de cadáveres contados. Por eso este punto va marcado como leyenda, aunque el pago y el texto existan."]
+	},
+	{
+		id: "horca",
+		date: "7 de mayo de 1896",
+		sort: 18960507,
+		year: "1896",
+		chapter: "Juicio y muerte",
+		lane: "fin",
+		certainty: "documentado",
+		title: "La horca en Moyamensing",
+		summary: "Prisión del condado, Filadelfia. Tiene 34 años. Pide que no le roben el cuerpo.",
+		body: [
+			"Lo ahorcan el 7 de mayo de 1896. Está tranquilo hasta el final, el mismo trato amable de siempre. La soga no le rompe el cuello: queda consciente y se sacude más de un cuarto de hora. No es un detalle de folletín; está en el parte de la ejecución.",
+			"Por miedo a los ladrones de cadáveres —el oficio que él conocía de la facultad— pide un ataúd de pino lleno de cemento, enterrado a unos tres metros. Lo entierran sin lápida en el cementerio Holy Cross, en Yeadon, Pensilvania.",
+			"En 2017 exhuman el cuerpo por una petición de identificación, lo reconocen por la dentadura y lo vuelven a enterrar. El expediente se cierra donde él pidió: bajo cemento, no en un castillo."
+		]
+	}
+];
+var LANE_ICON = {
+	carrera: GraduationCap,
+	vida: Heart,
+	edificio: Building2,
+	crimenes: Scale,
+	fin: Gavel
+};
+function certaintyClass(c) {
+	if (c === "leyenda") return "text-oxblood";
+	if (c === "probable") return "text-brass";
+	return "text-ink";
+}
+function HolmesTimeline() {
+	const [lane, setLane] = (0, import_react.useState)("todo");
+	const [selectedId, setSelectedId] = (0, import_react.useState)("michigan");
+	const ordered = (0, import_react.useMemo)(() => [...EVENTS].sort((a, b) => a.sort - b.sort), []);
+	const visible = (0, import_react.useMemo)(() => lane === "todo" ? ordered : ordered.filter((event) => event.lane === lane), [lane, ordered]);
+	const selected = visible.find((event) => event.id === selectedId) ?? visible[0];
+	const index = Math.max(0, visible.findIndex((event) => event.id === selected.id));
+	function chooseLane(next) {
+		setLane(next);
+		const pool = next === "todo" ? ordered : ordered.filter((event) => event.lane === next);
+		setSelectedId((current) => pool.some((event) => event.id === current) ? current : pool[0].id);
+	}
+	function go(delta) {
+		const next = visible[index + delta];
+		if (!next) return;
+		setSelectedId(next.id);
+		requestAnimationFrame(() => {
+			document.getElementById(`ev-${next.id}`)?.scrollIntoView({ block: "nearest" });
+		});
+	}
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "min-h-screen bg-paper text-ink",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("header", {
+			className: "border-b border-line",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-xs font-semibold tracking-[0.22em] text-brass uppercase",
+						children: "Archivo · Chicago 1886–1896"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+						className: "mt-3 font-display text-5xl leading-none font-semibold tracking-tight sm:text-7xl",
+						children: "H. H. Holmes"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "mt-3 max-w-2xl font-display text-xl text-ink italic sm:text-2xl",
+						children: "De la facultad de medicina a la horca."
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "mt-4 max-w-2xl text-base leading-relaxed text-muted",
+						children: "Herman Webster Mudgett sale de la carrera en junio de 1884. Esta línea sigue desde ahí: el alias, las esposas, cómo consigue el edificio de Englewood, los nueve asesinatos que sí se sostienen y la ejecución del 7 de mayo de 1896. Lo que la prensa inventó va marcado como leyenda."
+					})
+				]
+			})
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {
+			className: "mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+					className: "grid grid-cols-2 gap-px overflow-hidden rounded-card border border-line bg-line sm:grid-cols-4",
+					children: [
+						["9", "víctimas confirmadas"],
+						["3", "esposas a la vez"],
+						["34", "años al morir"],
+						["1896", "la horca"]
+					].map(([value, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "bg-sheet px-4 py-4",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "font-display text-3xl leading-none font-semibold",
+							children: value
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-2 text-sm text-muted",
+							children: label
+						})]
+					}, label))
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+					className: "mt-6 rounded-card border border-line bg-sheet p-5 sm:p-6",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "font-display text-2xl font-semibold",
+							children: "Cómo consiguió el edificio"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-2 text-sm leading-relaxed text-muted",
+							children: "No era la casa de la familia. Myrta y Lucy vivían en Wilmette. Lo que llamaron “castillo” fue un local de esquina, comprado y levantado a crédito."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ol", {
+							className: "mt-4 grid gap-3 sm:grid-cols-2",
+							children: [
+								"Agosto de 1886: entra de empleado a la farmacia de Elizabeth Holton, viuda, en Wallace y 63rd.",
+								"Se queda con la botica. No mata al doctor Holton: el dueño ya había muerto.",
+								"En 1887 compra el lote de enfrente y encarga dos plantas. En 1888 lo demandan por no pagar.",
+								"Rota cuadrillas para que nadie vea el plano entero. En 1892 añade un tercer piso y lo llama hotel de la Feria."
+							].map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+								className: "flex gap-3 text-sm leading-relaxed",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "font-display text-lg leading-none text-brass",
+									children: i + 1
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: step })]
+							}, step))
+						})
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "mt-8 flex gap-2 overflow-x-auto pb-1",
+					role: "tablist",
+					"aria-label": "Filtrar la línea",
+					children: LANES.map((item) => {
+						const count = item.id === "todo" ? ordered.length : ordered.filter((event) => event.lane === item.id).length;
+						const active = lane === item.id;
+						return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+							type: "button",
+							role: "tab",
+							"aria-selected": active,
+							onClick: () => chooseLane(item.id),
+							className: "min-h-11 shrink-0 rounded-full border px-4 text-sm font-medium " + (active ? "border-ink bg-ink text-paper" : "border-line bg-sheet text-ink"),
+							children: [item.label, /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+								className: active ? "text-line" : "text-muted",
+								children: [" ", count]
+							})]
+						}, item.id);
+					})
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mt-6 grid items-start gap-8 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ol", {
+						className: "relative m-0 list-none p-0",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "absolute top-3 bottom-3 left-16 w-px bg-line",
+							"aria-hidden": true
+						}), visible.map((event, i) => {
+							const showChapter = i === 0 || visible[i - 1].chapter !== event.chapter;
+							return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
+								id: `ev-${event.id}`,
+								className: "scroll-mt-6",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(EventRow, {
+									event,
+									active: event.id === selected.id,
+									showChapter,
+									onSelect: () => setSelectedId(event.id)
+								})
+							}, event.id);
+						})]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Dossier, {
+						event: selected,
+						index,
+						total: visible.length,
+						onGo: go
+					})]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("footer", {
+					className: "mt-12 border-t border-line pt-6 text-sm leading-relaxed text-muted",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+						"Fechas según actas, el juicio de Filadelfia de 1895 y la investigación que fija nueve víctimas confirmadas. El plano del “Murder Castle” sale del",
+						" ",
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "text-ink",
+							children: "New York World"
+						}),
+						" del 11 de agosto de 1895, no de los planos de obra. Esta línea no sigue la novela de Erik Larson."
+					] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+						className: "mt-3",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								className: "text-ink underline decoration-line underline-offset-4",
+								href: "https://en.wikipedia.org/wiki/H._H._Holmes",
+								target: "_blank",
+								rel: "noreferrer",
+								children: "Expediente público (Wikipedia)"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								"aria-hidden": true,
+								children: " · "
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								className: "text-ink underline decoration-line underline-offset-4",
+								href: "https://www.smithsonianmag.com/smart-news/enduring-mystery-hh-holmes-americas-first-serial-killer-180977646/",
+								target: "_blank",
+								rel: "noreferrer",
+								children: "Smithsonian, sobre el mito"
+							})
+						]
+					})]
+				})
+			]
+		})]
+	});
+}
+function EventRow({ event, active, showChapter, onSelect }) {
+	const Icon = LANE_ICON[event.lane];
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "mb-3",
+		children: [showChapter ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mb-2 flex",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+					className: "w-14 shrink-0",
+					"aria-hidden": true
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+					className: "w-4 shrink-0",
+					"aria-hidden": true
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "font-display text-sm tracking-wide text-brass italic",
+					children: event.chapter
+				})
+			]
+		}) : null, /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "flex",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "w-14 shrink-0 pt-4 text-right",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "text-xs font-semibold text-muted",
+						children: event.year
+					})
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "relative w-4 shrink-0",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "absolute top-5 left-1/2 z-10 size-2.5 -translate-x-1/2 rounded-full border-2 border-paper " + (active ? "bg-oxblood" : "bg-brass"),
+						"aria-hidden": true
+					})
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+					type: "button",
+					onClick: onSelect,
+					"aria-pressed": active,
+					className: "min-w-0 flex-1 rounded-card border px-4 py-3 text-left " + (active ? "border-ink bg-sheet" : "border-line bg-paper"),
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+							className: "flex items-center gap-2 text-xs font-semibold tracking-wide uppercase",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Icon, {
+									className: "size-3.5 text-brass",
+									"aria-hidden": true
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "text-muted",
+									children: LANE_LABEL[event.lane]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: certaintyClass(event.certainty),
+									children: ["· ", CERTAINTY_LABEL[event.certainty]]
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "mt-1 block font-display text-lg leading-snug font-semibold",
+							children: event.title
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "mt-1 block text-sm leading-relaxed text-muted",
+							children: event.summary
+						}),
+						active ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+							className: "mt-3 block space-y-2 border-t border-line pt-3 text-sm leading-relaxed lg:hidden",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "block text-xs font-semibold tracking-wide text-brass uppercase",
+								children: event.date
+							}), event.body.map((paragraph) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "block",
+								children: paragraph
+							}, paragraph))]
+						}) : null
+					]
+				})
+			]
+		})]
+	});
+}
+function Dossier({ event, index, total, onGo }) {
+	const Icon = LANE_ICON[event.lane];
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("aside", {
+		className: "sticky top-4 hidden rounded-card border border-line bg-sheet p-6 lg:block",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "flex items-center justify-between gap-3",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: `text-xs font-semibold tracking-[0.16em] uppercase ${certaintyClass(event.certainty)}`,
+					children: CERTAINTY_LABEL[event.certainty]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+					className: "text-xs text-muted",
+					children: [
+						index + 1,
+						" / ",
+						total
+					]
+				})]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+				className: "mt-4 flex items-center gap-2 text-sm text-muted",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Icon, {
+						className: "size-4 text-brass",
+						"aria-hidden": true
+					}),
+					LANE_LABEL[event.lane],
+					" · ",
+					event.date
+				]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+				className: "mt-2 font-display text-3xl leading-tight font-semibold",
+				children: event.title
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "mt-4 space-y-3 text-sm leading-relaxed",
+				children: event.body.map((paragraph) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: paragraph }, paragraph))
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "mt-6 flex gap-2",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+					type: "button",
+					onClick: () => onGo(-1),
+					disabled: index === 0,
+					className: "inline-flex min-h-11 items-center gap-1 rounded-full border border-line px-4 text-sm font-medium disabled:opacity-40",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronLeft, {
+						className: "size-4",
+						"aria-hidden": true
+					}), "Anterior"]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+					type: "button",
+					onClick: () => onGo(1),
+					disabled: index === total - 1,
+					className: "inline-flex min-h-11 items-center gap-1 rounded-full border border-ink bg-ink px-4 text-sm font-medium text-paper disabled:opacity-40",
+					children: ["Siguiente", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronRight, {
+						className: "size-4",
+						"aria-hidden": true
+					})]
+				})]
+			})
+		]
+	});
+}
+function Home() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HolmesTimeline, {});
+}
+//#endregion
+export { Home as component };
